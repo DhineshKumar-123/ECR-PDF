@@ -1,0 +1,70 @@
+// newPdf.addPage();
+// newPdf.addImage(Image, 'PNG', 10, 7, 25, 25);
+// newPdf.addImage(Image2, 'PNG', 173, 7, 25, 25);
+// newPdf.setFontSize(18);
+// newPdf.setFont("times", "bold");
+// newPdf.text('MUTHAYAMMAL ENGINEERING COLLEGE',35, 15);
+// newPdf.setFontSize(10);
+// newPdf.setFont("times", "");
+// newPdf.text('(An Autonomous Institution)', 80, 20);
+// newPdf.text('(Approved by AICTE, New Delhi, Accredited by NAAC & Affiliated to Anna University)', 35, 25);
+// newPdf.text('Rasipuram - 637 408, Namakkal Dist., Tamil Nadu', 65, 30);
+// newPdf.setFontSize(13);
+// newPdf.setFont("times", "bold");
+// newPdf.text('Department of Computer Science and Engineering',58,50);
+// newPdf.setFont("times", "roman");
+// newPdf.text('in Association with',85,57);
+// newPdf.text(``,72,64);//sponsoring agency
+// newPdf.setFont("times", "italic");
+// newPdf.text('The Management, Principal, Faculty and Students Cardially Invite you to the',38,74);
+// newPdf.setFont("times", "roman");
+
+
+// newPdf.setFont("times", "bold");
+// newPdf.text(`    ${data.event_name}`,90,84);//event name
+
+
+// newPdf.setFont("times", "roman");
+// newPdf.text('  On',100,92);
+// newPdf.text(`${data.event_title}`,98,100);//event_title
+
+
+// newPdf.text('   Resource Person',89,110);
+// newPdf.setFont("times", "bold");
+// newPdf.text(`${data.guest_name}`,90,117);//Name of resource person
+// newPdf.setFont("times", "italic");
+// newPdf.text(`${data.guest_designation}`,98,127);//designation
+// newPdf.setFont("times", "roman");
+// newPdf.setFont("times", "bold");
+// newPdf.text('Dr.K.Gunasekaran',88,137);
+// newPdf.setFont("times", "italic");
+// newPdf.text('Secretary & Managing Trustee',80,144);
+// newPdf.text('Muthayammal Educational Trust and Research Foundation',55,151);
+// newPdf.text('will preside over the function',82,158);
+// newPdf.setFont("times", "roman");
+// newPdf.setFont("times", "bold");
+// newPdf.text('Dr.M.Madheshwaran',87,168);
+// newPdf.setFont("times", "italic");
+// newPdf.text('Principal',98,175);
+// newPdf.text('Muthayammal Engineering College',73,182);
+// newPdf.text('will feliciate the function',86,189);
+
+
+// newPdf.setFont("times", "roman");
+// newPdf.setFont("times", "bold");
+// newPdf.text(`${data.event_organizing_secretary}`,94,199);//organizing_secretary
+// newPdf.setFont("times", "italic");
+
+// newPdf.text('Will Welcome The Gathering',80,205);
+// newPdf.setFont("times", "bold");
+// newPdf.text('Date:',20,240);
+// newPdf.text(`${data.event_date}`,32,240);//date
+// newPdf.text('Time:',80,240);
+// newPdf.text(`${data.event_time}`,96,240);//time
+// newPdf.text('Venue:',140,240);
+// newPdf.text(`${data.event_venue}`,155,240);//place
+// newPdf.setFont("times", "roman");
+// newPdf.setFont("times", "italic");
+
+// newPdf.text(` ${data.event_organizing_secretary}`,20,268);//coordinator
+// newPdf.text('Co-Ordinator',20,272);
